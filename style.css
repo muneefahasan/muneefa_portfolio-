@@ -376,9 +376,9 @@ h3.my-proffesion {
     height: 80px;
     width: 80px;
     border-bottom: 10px solid var(--skin-color);
-    right: 20px;
+    right: -5px;
     border-right: 10px solid var(--skin-color);
-    bottom: -40px;
+    bottom: -5px;
 }
 
 .home .home-img::before {
@@ -387,9 +387,9 @@ h3.my-proffesion {
     height: 80px;
     width: 80px;
     border-top: 10px solid var(--skin-color);
-    left: -20px;
+    left: -5px;
     border-left: 10px solid var(--skin-color);
-    top: -40px;
+    top: -30px;
 }
 
 .home .home-img img {
