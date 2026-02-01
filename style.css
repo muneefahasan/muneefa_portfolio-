@@ -125,12 +125,15 @@ ul {
     background: var(--skin-color);
     color: #fff;
     border-radius: 40px;
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     white-space: nowrap;
     transition: all 0.3s ease;
     border: none;
     cursor: pointer;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    height: 50px;
 }
 
 .btn:hover {
@@ -397,6 +400,7 @@ h3.my-proffesion {
     margin: auto;
     border-radius: 5px;
     object-fit: cover;
+    max-width: 100%;
 }
 
 /* About Section */
@@ -1090,7 +1094,11 @@ h3.my-proffesion {
     }
 
     .home .home-img {
-        display: none;
+        /* display: none;*/
+        display: block;
+        margin-bottom: 30px;
+        flex: 0 0 100%;
+        max-width: 100%;
     }
 
     .home .home-info h3.helo,
@@ -1103,7 +1111,9 @@ h3.my-proffesion {
     }
 
     .home .home-info .btn {
-        display: inline-block;
+        display: inline-flex;
+        margin-top: 40px;
+        margin-bottom: 20px;
     }
 
     .about .about-content .about-text h3 {
@@ -1254,7 +1264,8 @@ h3.my-proffesion {
     }
 
     .home .home-info h1 {
-        font-size: 28px;
+        /*font-size: 28px;*/
+        font-size: 32px;
     }
 
     .home .home-info h3.helo {
@@ -1269,6 +1280,9 @@ h3.my-proffesion {
         padding: 0 25px;
         height: 45px;
         font-size: 14px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .about .about-content .about-text h3 {
@@ -1423,6 +1437,12 @@ h3.my-proffesion {
 
     .aside .nav-toggler.open {
         left: 285px;
+    }
+
+    .home .home-img img {
+        height: auto;
+        width: 100%;
+        max-width: 300px;
     }
 }
 
